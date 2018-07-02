@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucidJson", "LucidJson\LucidJson.csproj", "{F36C0AF3-96A0-4914-98ED-035337EFBAC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucidJson", "LucidJson\LucidJson.csproj", "{F36C0AF3-96A0-4914-98ED-035337EFBAC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucidJson.WPF", "LucidJson.WPF\LucidJson.WPF.csproj", "{416576DD-B0F2-43A3-88B5-797B639EC67B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucidJson.Test", "LucidJson.Test\LucidJson.Test.csproj", "{5E23AB78-22C9-417C-B5E3-FDF313EE7855}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F36C0AF3-96A0-4914-98ED-035337EFBAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F36C0AF3-96A0-4914-98ED-035337EFBAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F36C0AF3-96A0-4914-98ED-035337EFBAC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416576DD-B0F2-43A3-88B5-797B639EC67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416576DD-B0F2-43A3-88B5-797B639EC67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416576DD-B0F2-43A3-88B5-797B639EC67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416576DD-B0F2-43A3-88B5-797B639EC67B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E23AB78-22C9-417C-B5E3-FDF313EE7855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E23AB78-22C9-417C-B5E3-FDF313EE7855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E23AB78-22C9-417C-B5E3-FDF313EE7855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E23AB78-22C9-417C-B5E3-FDF313EE7855}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
