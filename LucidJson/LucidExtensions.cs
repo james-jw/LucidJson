@@ -112,7 +112,7 @@ namespace LucidJson
         /// <typeparam name="T"></typeparam>
         /// <param name="obj">The object to convert to an enumeration</param>
         /// <returns>The enumeration</returns>
-        public static IEnumerable<T> AsEnumerable<T>(this T obj)
+        public static IEnumerable<T> ItemAsEnumerable<T>(this T obj)
         {
             yield return obj;
         }

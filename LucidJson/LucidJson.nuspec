@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>LucidJson</id>
-    <version>0.1.4</version>
+    <version>0.1.4.1</version>
     <title>LucidJson</title>
     <authors>James Wright</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
